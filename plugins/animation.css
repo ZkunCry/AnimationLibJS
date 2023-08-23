@@ -1,0 +1,32 @@
+.appear-above {
+  transform: translate(0, 0);
+  opacity: 1;
+  transition: transform 0.1s, opacity 0.1s;
+}
+
+.appear-above.hidden {
+  transform: translate(0, -100%);
+  opacity: 0;
+  transition: transform 0.1s, opacity 0.1s;
+}
+.appear-left {
+  transform: translateX(0);
+  opacity: 1;
+  transition: transform 0.8s, opacity 0.8s;
+}
+.appear-left.hidden {
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: transform 0.8s, opacity 0.8s;
+}
+
+.appear-right {
+  transform: translate(0, 0);
+  opacity: 1;
+  transition: transform 0.8s, opacity 0.8s;
+}
+.appear-right.hidden {
+  transform: translate(100%, 0);
+  opacity: 0;
+  transition: transform 0.8s, opacity 0.8s;
+}
